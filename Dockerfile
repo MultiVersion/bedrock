@@ -1,5 +1,5 @@
 FROM ubuntu:focal
-LABEL org.opencontainers.image.source="https://github.com/MultiVersion/bedrock" org.opencontainers.image.source="https://multiversion.dviih.technology/" org.opencontainers.image.version="LTS" org.opencontainers.image.revision="2108" org.opencontainers.image.authors="Dviih" org.opencontainers.image.licenses="unlicense.org"
+LABEL org.opencontainers.image.source="https://github.com/MultiVersion/bedrock" org.opencontainers.image.source="https://multiversion.dviih.technology/" org.opencontainers.image.version="21.08" org.opencontainers.image.revision="LTS" org.opencontainers.image.authors="Dviih" org.opencontainers.image.licenses="unlicense.org"
 
 ADD ./entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
